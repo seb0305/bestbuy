@@ -2,6 +2,12 @@ import products
 import store
 
 def start(store_obj):
+    """
+    Starts the interactive user interface to interact with the store.
+
+    Args:
+        store_obj (Store): The store instance to interact with.
+    """
     while True:
         print("\nMenu:")
         print("1. List all products in store")
